@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+.form{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainHeading{
+    font-family: 'Single Day', sans-serif;
+    font-size: 3rem;
+    color: #72DB73;
+}
+
+.heading{
+    margin: 20px;
+}
+
+.subHeading{
+    font-family: 'Dm Sans', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.typeInput{
+    height: 20px;
+    width: 350px;
+    background-color: #292929;
+    color: #7C7C7C;
+    border: none;
+    padding: 10px;
+}
+
+.inputField{
+margin: 15px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+
+.checkboxField{
+    margin: 20px;
+    color: #7C7C7C;
+ }
+
+button{
+    height: 35px;
+    width: 400px;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: 600;
+    background-color: #72DB73;
+    color: #fff;
+}
+
+.terms{
+    color: #7C7C7C;
+}
+
+.errorMessage{
+    color: #ff0000;}
