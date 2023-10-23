@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,3 +16,190 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nextPage{
+  width:100px;
+  height:50px; 
+  margin-top:75vh;
+ border-radius: 10px;
+    font-size:medium;
+    font-weight: 600;
+    background-color: #148A08;
+    color: #fff;
+}
+
+.category{
+  width: 150px;
+  height: 150px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.category:hover{
+  border: #00ffff solid 5px;
+}
+
+
+.category.action{
+  background-color: #FF5209;
+}
+
+.category.drama{
+  background-color: #D7A4FF;
+}
+
+.category.romance{
+  background-color: #FF4ADE;
+}
+
+.category.thriller{
+  background-color: #5f9ea0
+}
+
+.category.western{
+  background-color: #902500;
+}
+
+.category.horror{
+  background-color: #7358FF;
+}
+
+.category.fantasy{
+  background-color: #7fff00;
+}
+
+.category.music{
+  background-color: #E61E32;
+}
+
+.category.fiction{
+  background-color: #6CD061;
+}
+
+img{
+width: 120px;
+height: 80px;
+border-radius: 15px;
+}
+
+.categoryName{
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+.image{
+text-align: center;
+}
+
+
+.container{
+  width: 50%;
+ height: 100vh;
+  color: #fff;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: repeat(3, 180px);
+    grid-template-rows: repeat(3, 180px);
+}
+
+
+.appName{
+    font-family: 'Single Day', sans-serif;
+    font-size: 3rem;
+    color: #72DB73;
+}
+
+
+.form{
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.mainHeading{
+  font-family: 'Single Day', sans-serif;
+  font-size: 3rem;
+  color: #72DB73;
+}
+
+.heading{
+  margin: 20px;
+}
+
+.subHeading{
+  font-family: 'Dm Sans', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.typeInput{
+  height: 20px;
+  width: 350px;
+  background-color: #292929;
+  color: #7C7C7C;
+  border: none;
+  padding: 10px;
+}
+
+.inputField{
+margin: 15px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.checkboxField{
+  margin: 20px;
+  color: #7C7C7C;
+}
+
+.signUp{
+  height: 35px;
+  width: 400px;
+  border-radius: 20px;
+  font-size: larger;
+  font-weight: 600;
+  background-color: #72DB73;
+  color: #fff;
+}
+
+.terms{
+  color: #7C7C7C;
+}
+
+.errorMessage{
+  color: #ff0000;}
+
+  .preference-chip {
+    display: inline-block;
+    background-color: #adff2f;
+    color: #000;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 5px;
+  }
+  
+  .removebutton {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+
+  .category.selected {
+    border: #00ffff solid 5px;
+  }
+  

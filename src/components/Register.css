@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Single+Day&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Single+Day&display=swap');
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 
 .form{
@@ -51,7 +51,7 @@ input::-webkit-inner-spin-button {
     color: #7C7C7C;
  }
 
-button{
+.signUp{
     height: 35px;
     width: 400px;
     border-radius: 20px;
@@ -66,4 +66,4 @@ button{
 }
 
 .errorMessage{
-    color: #ff0000;}
+    color: #ff0000;} */

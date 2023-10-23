@@ -1,0 +1,61 @@
+/* .category{
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.category:hover{
+    border: #00ffff solid 5px;
+}
+
+.category.action{
+    background-color: #FF5209;
+}
+
+.category.drama{
+    background-color: #D7A4FF;
+}
+
+.category.romance{
+    background-color: #FF4ADE;
+}
+
+.category.thriller{
+    background-color: #5f9ea0
+}
+
+.category.western{
+    background-color: #902500;
+}
+
+.category.horror{
+    background-color: #7358FF;
+}
+
+.category.fantasy{
+    background-color: #7fff00;
+}
+
+.category.music{
+    background-color: #E61E32;
+}
+
+.category.fiction{
+    background-color: #6CD061;
+}
+
+img{
+width: 120px;
+height: 80px;
+border-radius: 15px;
+}
+
+.categoryName{
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.image{
+  text-align: center;
+} */

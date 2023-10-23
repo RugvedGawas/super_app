@@ -1,5 +1,5 @@
-import Banner from '../components/register/Banner'
-import RegisterForm from '../components/register/RegisterForm'
+import Banner from '../components/Banner'
+import RegisterForm from '../components/RegisterForm'
 
 
 const Registration = () => {

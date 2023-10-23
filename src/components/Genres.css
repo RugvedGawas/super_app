@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
+
+.container{
+  width: 50%;
+ height: 100vh;
+  color: #fff;
+}
+
+.categories{
+    display: grid;
+    grid-template-columns: repeat(3, 180px);
+    grid-template-rows: repeat(3, 180px);
+}
+
+
+.appName{
+    font-family: 'Single Day', sans-serif;
+    font-size: 3rem;
+    color: #72DB73;
+} */

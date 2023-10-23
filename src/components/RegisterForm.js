@@ -136,7 +136,7 @@ const RegisterForm = () => {
             {errorText&&!ucheckBox?<p className='errorMessage'>This field is required</p>:''}
           </div>    
          <div className='buttonField'>
-         <button>SIGN UP</button>
+         <button className='signUp'>SIGN UP</button>
          </div>
           <div className='terms'>
             <p>
